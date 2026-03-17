@@ -1,0 +1,40 @@
+body{
+font-family:'Poppins', sans-serif;
+background:#f4f4f4;
+}
+
+.header{
+background:#0077b6;
+color:white;
+animation:fadein 2s;
+}
+
+/* Login Page */
+
+.login-body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#0077b6;
+}
+
+.login-box{
+background:white;
+padding:30px;
+width:300px;
+border-radius:8px;
+animation:slide 1s;
+}
+
+/* Animations */
+
+@keyframes fadein{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+@keyframes slide{
+from{transform:translateY(-50px);}
+to{transform:translateY(0);}
+}
